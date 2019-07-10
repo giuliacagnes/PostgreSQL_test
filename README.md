@@ -1,3 +1,4 @@
+### USAGE
 ```
 docker run --name some-postgres -v /home/giulia/postgres-docker/data:/tmp -d postgres
 docker run -it --rm --link some-postgres:postgres postgres psql -h postgres -U postgres
